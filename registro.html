@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/290cec0d70.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar">
+        <nav >
+            <ul >
+                <li class="left"><a href="index.html"><i class="fa-solid fa-house fa-xl"></i></a></li>
+                <li class="left"><a href="#">About</a></li>
+                <li class="left"><a href="contacto.html"><i class="fa-solid fa-envelope fa-xl"></i></a></li>
+                <li class="right"><a href="registro.html">Registro</a></li>
+                <li class="right"><a href="sesion.html">Inicio sesion</a></li>
+                <li class="right"><a href="perfil.html"><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <section>
+            <form action="">
+                <label class="label" for="name">Nombre</label>
+                <input class="input" type="text" name="name" id="name" required>
+
+                <label class="label" for="email">Correo</label>
+                <input class="input" type="email" name="email" id="email" required>
+
+                <label class="label" for="password">Password</label>
+                <input class="input" type="password" name="password" id="password" required>
+
+                <label class="label" for="edad">Edad</label>
+                <input class="input" type="number" name="edad" id="edad" required>
+
+                <label class="label" for="birth">Birth</label>
+                <input class="input" type="date" name="birth" id="birth" required>
+
+                <label class="label">Genero</label>
+                <label for="">Male:</label>
+                <input type="radio" name="gender" id="gender" value="Male" required>
+                <label for="">Female:</label>
+                <input type="radio" name="gender" id="gender" value="Female" required>
+                <label for="">Undefined:</label>
+                <input type="radio" name="gender" id="gender" value="Undefined" required>
+
+                <label class="label" for="city">Ciudad</label>
+                <select class="input" name="city" id="city" required>
+                    <option class="input" value="null">Seleccione la opcion</option>
+                    <option class="input" value="Medellin">Medellin</option>
+                    <option class="input" value="Cali">Cali</option>
+                    <option class="input" value="Bogota">Bogota</option>
+                    <option class="input" value="Barranquilla">Barranquilla</option>
+                </select>
+
+                <label for="agree">I agree with the terms and conditions</label>
+                <input class="input" type="checkbox" name="agree" id="agree" required>
+
+                <input class="input" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
