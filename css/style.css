@@ -1,0 +1,40 @@
+*{
+    background-color: blueviolet;
+    color: cornsilk;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    padding: 0;
+    margin: 0;
+}
+
+.link{
+    display: flex;
+    float: left;
+    padding: 30px;
+    
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: darkgray;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: coral;
+}
+
+section{
+    display: inline-block;
+}
