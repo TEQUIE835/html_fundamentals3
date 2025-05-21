@@ -101,3 +101,13 @@ th, td{
     display: block;
     margin-top: 3px;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    padding: 50px 0;
+}
