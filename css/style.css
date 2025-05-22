@@ -1,7 +1,14 @@
 *{
-    background-color: blueviolet;
     color: cornsilk;
 }
+
+body, html{
+    background-color: blueviolet;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 a{
     text-decoration: none;
@@ -76,8 +83,10 @@ th, td{
     list-style: none;
     margin: 0;
     display: inline-block;
-    height: 50px;
+    position: sticky;
+    height: 60px;
     width: 100%;
+    background-color: blue;
 }
 .left{
     display: inline-flex;
@@ -95,11 +104,13 @@ th, td{
     background-color: gray;
     display: block;
     margin-bottom: 3px;
+    color: black;
 }
 
 .label{
     display: block;
     margin-top: 3px;
+    color: black;
 }
 
 .container{
@@ -109,5 +120,22 @@ th, td{
 }
 
 .object{
+    display: flex;
     padding: 50px 0;
+    height: auto;
+    width: 500px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.button{
+    margin: 3px 34%;
+    padding: 3px 10px;
+}
+
+.option{
+    color: black;
 }
