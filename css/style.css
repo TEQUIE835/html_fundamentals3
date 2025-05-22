@@ -104,6 +104,7 @@ th, td{
     display: block;
     margin-bottom: 3px;
     color: black;
+    border-radius: 6px;
 }
 
 .label{
