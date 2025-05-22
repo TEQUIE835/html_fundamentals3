@@ -5,7 +5,7 @@ body, html{
     height: 100%;
     margin: 0;
     padding: 0;
-    color: cornsilk;
+    color: #2c2c2a;
 }
 
 
@@ -26,11 +26,12 @@ a{
 }
 
 a:link{
-    color: aqua;
+    color: #5c5858;
 }
 
+
 a:visited{
-    color: darkred;
+    color: #5c5858;
 }
 
 a:hover{
