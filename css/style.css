@@ -1,7 +1,9 @@
 
 
 body, html{
-    background-color: #d6bdee;
+    background-image: linear-gradient(#d6bdee, hsl(271, 15%, 45%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     margin: 0;
     padding: 0;
