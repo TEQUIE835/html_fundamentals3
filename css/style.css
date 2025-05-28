@@ -159,6 +159,7 @@ th, td{
     font-size: 15px;
     width: 50%;
     box-shadow: 10px 6px 10px gray;
+    transition: all 0.4s;
 }
 
 .option{
